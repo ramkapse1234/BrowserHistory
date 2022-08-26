@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.Blue {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+.whole {
+  box-shadow: 1px 1px 1px 1px rgb(171, 196, 235);
+  margin-bottom: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.para {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
